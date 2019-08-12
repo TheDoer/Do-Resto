@@ -12,6 +12,13 @@
 		F19CDD8B2300284B0013468D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19CDD892300284B0013468D /* Main.storyboard */; };
 		F19CDD8D2300284C0013468D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19CDD8C2300284C0013468D /* Assets.xcassets */; };
 		F19CDD902300284C0013468D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19CDD8E2300284C0013468D /* LaunchScreen.storyboard */; };
+		F19CDD99230071DF0013468D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDD98230071DF0013468D /* BaseView.swift */; };
+		F19CDD9D230074480013468D /* DetailsFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDD9C230074480013468D /* DetailsFoodView.swift */; };
+		F19CDD9F2300B6AD0013468D /* DetailsFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDD9E2300B6AD0013468D /* DetailsFoodViewController.swift */; };
+		F19CDDA22300BB370013468D /* RestoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDDA12300BB370013468D /* RestoTableTableViewController.swift */; };
+		F19CDDA52300BBC30013468D /* RestoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDDA42300BBC30013468D /* RestoTableViewCell.swift */; };
+		F19CDDA92300BF2A0013468D /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDDA82300BF2A0013468D /* LocationView.swift */; };
+		F19CDDAB2300C4640013468D /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDDAA2300C4640013468D /* LocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		F19CDD8C2300284C0013468D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F19CDD8F2300284C0013468D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F19CDD912300284C0013468D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19CDD98230071DF0013468D /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		F19CDD9C230074480013468D /* DetailsFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFoodView.swift; sourceTree = "<group>"; };
+		F19CDD9E2300B6AD0013468D /* DetailsFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFoodViewController.swift; sourceTree = "<group>"; };
+		F19CDDA12300BB370013468D /* RestoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoTableTableViewController.swift; sourceTree = "<group>"; };
+		F19CDDA42300BBC30013468D /* RestoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoTableViewCell.swift; sourceTree = "<group>"; };
+		F19CDDA82300BF2A0013468D /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		F19CDDAA2300C4640013468D /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 		F19CDD842300284B0013468D /* Do-Resto */ = {
 			isa = PBXGroup;
 			children = (
+				F19CDD97230071BC0013468D /* Screen */,
 				F19CDD852300284B0013468D /* AppDelegate.swift */,
 				F19CDD872300284B0013468D /* ViewController.swift */,
 				F19CDD892300284B0013468D /* Main.storyboard */,
@@ -62,6 +77,68 @@
 				F19CDD912300284C0013468D /* Info.plist */,
 			);
 			path = "Do-Resto";
+			sourceTree = "<group>";
+		};
+		F19CDD97230071BC0013468D /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				F19CDDA62300BE8B0013468D /* Location */,
+				F19CDD9A2300740D0013468D /* Details */,
+				F19CDDA02300BAFB0013468D /* List */,
+				F19CDD98230071DF0013468D /* BaseView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		F19CDD9A2300740D0013468D /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				F19CDD9B230074260013468D /* Views */,
+				F19CDD9E2300B6AD0013468D /* DetailsFoodViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		F19CDD9B230074260013468D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F19CDD9C230074480013468D /* DetailsFoodView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F19CDDA02300BAFB0013468D /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F19CDDA32300BB5B0013468D /* Views */,
+				F19CDDA12300BB370013468D /* RestoTableTableViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		F19CDDA32300BB5B0013468D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F19CDDA42300BBC30013468D /* RestoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F19CDDA62300BE8B0013468D /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				F19CDDA72300BEB20013468D /* Views */,
+				F19CDDAA2300C4640013468D /* LocationViewController.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		F19CDDA72300BEB20013468D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F19CDDA82300BF2A0013468D /* LocationView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +212,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19CDD99230071DF0013468D /* BaseView.swift in Sources */,
+				F19CDDA92300BF2A0013468D /* LocationView.swift in Sources */,
+				F19CDD9D230074480013468D /* DetailsFoodView.swift in Sources */,
+				F19CDDA22300BB370013468D /* RestoTableTableViewController.swift in Sources */,
+				F19CDD9F2300B6AD0013468D /* DetailsFoodViewController.swift in Sources */,
+				F19CDDA52300BBC30013468D /* RestoTableViewCell.swift in Sources */,
+				F19CDDAB2300C4640013468D /* LocationViewController.swift in Sources */,
 				F19CDD882300284B0013468D /* ViewController.swift in Sources */,
 				F19CDD862300284B0013468D /* AppDelegate.swift in Sources */,
 			);
