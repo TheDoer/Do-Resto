@@ -35,6 +35,15 @@ final class LocationServices: NSObject {
         return CLLocationManager.authorizationStatus()
     }
     
+    //asking for users permission to ask for location
+    
+    func requestLocationAuthorizatiion() {
+        manager.requestWhenInUseAuthorization()
+    }
+    
+    func getLocation()  {
+        manager.requestLocation()
+    }
     
 }
 
