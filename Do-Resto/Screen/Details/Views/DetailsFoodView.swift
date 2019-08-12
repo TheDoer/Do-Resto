@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 @IBDesignable class DetailsFoodView: BaseView {
-    @IBOutlet weak var outCollectionView: UICollectionView!
+    @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var hoursLabel: UILabel!

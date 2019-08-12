@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RestoTableTableViewController: UITableViewController {
+class RestoTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
