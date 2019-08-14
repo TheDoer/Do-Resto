@@ -19,7 +19,7 @@ import MapKit
     @IBOutlet weak var mapView: MKMapView!
     
   
-    @IBAction func handleControl(_ Sender: UIPageControl){
+    @IBAction func handleControl(_ sender: UIPageControl){
         
     }
     

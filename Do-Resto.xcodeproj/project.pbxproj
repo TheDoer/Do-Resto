@@ -19,7 +19,7 @@
 		F19CDDA52300BBC30013468D /* RestoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDDA42300BBC30013468D /* RestoTableViewCell.swift */; };
 		F19CDDA92300BF2A0013468D /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDDA82300BF2A0013468D /* LocationView.swift */; };
 		F19CDDAB2300C4640013468D /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDDAA2300C4640013468D /* LocationViewController.swift */; };
-		F19CDDAE2300EC640013468D /* LocationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDDAD2300EC640013468D /* LocationServices.swift */; };
+		F19CDDAE2300EC640013468D /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CDDAD2300EC640013468D /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		F19CDDA42300BBC30013468D /* RestoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoTableViewCell.swift; sourceTree = "<group>"; };
 		F19CDDA82300BF2A0013468D /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		F19CDDAA2300C4640013468D /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
-		F19CDDAD2300EC640013468D /* LocationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServices.swift; sourceTree = "<group>"; };
+		F19CDDAD2300EC640013468D /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,7 @@
 		F19CDDAC2300EC440013468D /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F19CDDAD2300EC640013468D /* LocationServices.swift */,
+				F19CDDAD2300EC640013468D /* LocationService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -228,7 +228,7 @@
 				F19CDD9D230074480013468D /* DetailsFoodView.swift in Sources */,
 				F19CDDA22300BB370013468D /* RestoTableViewController.swift in Sources */,
 				F19CDD9F2300B6AD0013468D /* DetailsFoodViewController.swift in Sources */,
-				F19CDDAE2300EC640013468D /* LocationServices.swift in Sources */,
+				F19CDDAE2300EC640013468D /* LocationService.swift in Sources */,
 				F19CDDA52300BBC30013468D /* RestoTableViewCell.swift in Sources */,
 				F19CDDAB2300C4640013468D /* LocationViewController.swift in Sources */,
 				F19CDD882300284B0013468D /* ViewController.swift in Sources */,

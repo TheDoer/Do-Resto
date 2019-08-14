@@ -15,7 +15,7 @@ enum Result<T> {
     case failure(Error)
 }
 
-final class LocationServices: NSObject {
+final class LocationService: NSObject {
     private let manager: CLLocationManager
     
     init(manager: CLLocationManager = .init()) {
@@ -36,11 +36,13 @@ final class LocationServices: NSObject {
     }
     
     //asking for users permission to ask for location
+    //That little dialogue that asks for location
     
     func requestLocationAuthorizatiion() {
         manager.requestWhenInUseAuthorization()
     }
     
+    //ask manager to request location updates
     func getLocation()  {
         manager.requestLocation()
     }
@@ -49,7 +51,7 @@ final class LocationServices: NSObject {
 
 //Location Callbacks
 
-extension LocationServices: CLLocationManagerDelegate {
+extension LocationService: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         newLocation?(.failure(error))
         
@@ -57,6 +59,7 @@ extension LocationServices: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.sorted(by: { $0.timestamp > $1.timestamp}).first {
+            //callback with new location from manager on line 46
             newLocation?(.success(location))
             
     }

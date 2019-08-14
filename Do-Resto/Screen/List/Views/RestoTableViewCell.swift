@@ -15,8 +15,6 @@ class RestoTableViewCell: UITableViewCell {
     @IBOutlet weak var restoNameLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     
-    
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
